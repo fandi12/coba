@@ -1,0 +1,67 @@
+*{
+	box-sizing: border-box;
+}
+
+header{
+	height: 35px;
+	width:100%;
+	background-color:blue;
+	float: left;
+
+}
+
+section{
+	height:200px;
+	width:70%;
+	background-color:pink;
+	float: left;
+	padding: 20px;
+}
+
+footer{
+	height:70px;
+	width: 100%;
+	background:blue;
+	float: left; 
+}
+
+aside{
+	height:200px;
+	width: 30%;
+	background-color:yellow;
+	float: left;
+}
+
+p{
+	margin-top: 0;
+}
+
+nav{
+	/*padding: 15px;*/
+	width: 100%;
+	background-color: red;
+	color: white;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+}
+
+nav ul{
+	text-align: center;
+	margin: 0;
+}
+
+nav ul li a:hover{
+	background-color: white;
+	color: red;
+	transition: .5s;
+}

@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+}
+
+header{
+	height: 100px;
+	width: 100%;
+	background-color:yellow;
+	float: left;
+}
+
+section{
+	height: 500px;
+	width: 80%;
+	background-color:blue;
+	float: left;
+	padding: 20px;
+
+}
+
+aside{
+	height: 500px;
+	width: 20%;
+	background-color: #00FF00;
+	float: left;
+}
+
+footer{
+	height: 100px;
+	width: 100%;
+	background-color: yellow;
+	float: left;
+}
+.makan{
+	height: 50px;
+	width: 50px;
+	background-color:white;
+	float: left;
+	margin: 20px;	
+}
